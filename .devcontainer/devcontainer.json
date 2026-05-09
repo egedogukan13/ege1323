@@ -1,5 +1,8 @@
 {
   "name": "Kali Linux",
   "image": "kalilinux/kali-rolling:latest",
-  "remoteUser": "root"
+  "remoteUser": "root",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {}
+  }
 }
