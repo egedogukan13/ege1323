@@ -1,8 +1,5 @@
 {
-  "name": "Kali Linux",
-  "image": "kalilinux/kali-rolling:latest",
-  "remoteUser": "root",
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:1": {}
-  }
+    "name": "Kali",
+    "image": "://microsoft.com",
+    "onCreateCommand": "apt-get update && apt-get install -y curl && curl -fSSl https://kali.org | gpg --dearmor | tee /usr/share/keyrings/kali-archive-keyring.gpg > /dev/null && echo 'deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://kali.org kali-rolling main non-free contrib' | tee /etc/apt/sources.list.d/kali.list && apt-get update"
 }
