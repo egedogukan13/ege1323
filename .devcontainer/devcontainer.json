@@ -1,1 +1,4 @@
-
+{
+    "image": "kalilinux/kali-rolling",
+    "postCreateCommand": "apt-get update && apt-get install -y kali-linux-default"
+}
