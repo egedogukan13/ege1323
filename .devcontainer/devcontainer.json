@@ -1,4 +1,4 @@
 {
     "image": "kalilinux/kali-rolling",
-    "postCreateCommand": "apt-get update && apt-get install -y openjdk-21-jre-headless wget screen"
+    "postCreateCommand": "apt-get update && apt-get install -y openjdk-26-jre-headless wget screen"
 }
